@@ -16,7 +16,7 @@ This makes errors in asynchronous code harder to spot and leaves the user none-t
 Import the `PromiseRejectionHandler` component and nest it directly underneath your Error Boundary:
 
 ```jsx
-import PromiseRejectionHandler from 'PromiseRejectionHandler';
+import PromiseRejectionHandler from 'react-promise-rejection-handler';
 
 const App = () => (
   <ErrorBoundary>
