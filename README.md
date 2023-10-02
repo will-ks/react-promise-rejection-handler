@@ -1,11 +1,11 @@
-# react-promise-rejection-handler
+# React Promise Rejection Handler
 
 In React, an [Error Boundary](https://reactjs.org/docs/error-boundaries.html) captures and handles unhandled exceptions. They are a great way to centralize error handling.
 
 Error Boundaries work great for synchronous code. However, they can't catch unhandled rejections thrown by asynchronous code involving Promises.
 This makes errors in asynchronous code harder to spot and leaves the user none-the-wiser that anything has gone wrong.
 
-`react-promise-rejection-handler` is a simple component that captures unhandled Promise rejections and forwards them to your Error Boundary, so you can handle them as you do any other error.
+React Promise Rejection Handler is a simple component that captures unhandled Promise rejections and forwards them to your Error Boundary, so you can handle them as you do any other error.
 
 ## Installation
 
